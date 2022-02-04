@@ -2,8 +2,8 @@
 Handles data requests that aren't handled in the FMP-python module
 """
 import requests
-from app.config.secrets import fmp_key
-from app.config.config import base_url, api_version
+from app.config.Secrets import fmp_key
+from app.config.Config import base_url, api_version
 from typing import Optional
 
 
